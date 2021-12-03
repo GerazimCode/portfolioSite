@@ -4,7 +4,7 @@
             "id": 0,
             "project_name": "Employee Directory",
             "description": "This is a directory that shows employees randomly and refreshes with new content...",
-            "technologies": ["HTML", "JS"],
+            "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
             "image_urls": ["images/directory1.jpg", "images/directory2.jpg"]
@@ -14,7 +14,7 @@
             "id": 1,
             "project_name": "Form Validation",
             "description": "An extensinve form.....",
-            "technologies": ["HTML", "JS", "Regex"],
+            "technologies": ["HTML", "CSS", "Javascript", "Regex"],
             "live_link": " ",
             "github_link": " ",
             "image_urls": ["images/form1.jpg", "images/form2.jpg"]
@@ -24,7 +24,7 @@
             "id": 2,
             "project_name": "Phrase Guessing Game",
             "description": "A game built with OOP concept in JS to.....",
-            "technologies": ["HTML", "JS", "OOP"],
+            "technologies": ["HTML", "CSS", "JS", "OOP"],
             "live_link": " ",
             "github_link": " ",
             "image_urls": ["images/oopgame1.jpg", "images/oopgame2.jpg"]
@@ -34,7 +34,7 @@
             "id": 3,
             "project_name": "Data Pagination",
             "description": "Data pagination is a simple app that shows how data is functioning...",
-            "technologies": ["HTML", "JS"],
+            "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
             "image_urls": ["images/pagination1.png", "images/pagination2.jpg"]
@@ -44,7 +44,7 @@
             "id": 4,
             "project_name": "Random Quote Generator",
             "description": "A simple web app that displays random quotes as you press the button...",
-            "technologies": ["HTML", "JS"],
+            "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
             "image_urls": ["images/randomquote1.jpg", "images/randomquote2/jpg"]
@@ -52,7 +52,7 @@
 
         {
             "id": 5,
-            "project_name": " ",
+            "project_name": "RSVP App",
             "description": " ",
             "technologies": ["HTML", "JS", " "],
             "live_link": " ",
