@@ -38,6 +38,34 @@ app.get("/projects/:id", (req, res) => {
 
 })
 
+/**
+ * Project error handling
+ */
+
+// 404 Error handling to catch non existent and undefined routes
+app.use((req, res, next) => {
+    let customError = new Error("This page does not exist!!");
+    customError.status = 404;
+    console.log(customError.message);
+    console.log(`Error Code: ${customError.status}`);
+    // res.render("Page Not Found!", { customError });
+    next();
+// check if all the logs are still needed....
+})
+
+// Global Error handling to server errors...
+app.use((err, req, res, next) => {
+    err.status = 500;
+    res.status(500);
+    err.message = "This page does not exist";
+    let errorMessage = err.message;
+    console.log(errorMessage);
+    console.log(`Error Code: ${err.status}`);
+    // res.render("Error", { err });
+    next();
+
+})
+
 app.listen(port, () => {
-    console.log("The app is running on port 3000");
+    console.log(`This app is listening on port: ${port}`);
 })
