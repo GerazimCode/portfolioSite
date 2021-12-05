@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
-            "image_urls": ["images/directory1.jpg", "images/directory2.jpg"]
+            "image_urls": ["/static/images/directory1.jpg", "/static/images/directory2.jpg"]
         },
 
         {
@@ -17,7 +17,7 @@
             "technologies": ["HTML", "CSS", "Javascript", "Regex"],
             "live_link": " ",
             "github_link": " ",
-            "image_urls": ["images/form1.jpg", "images/form2.jpg"]
+            "image_urls": ["/static/images/form1.jpg", "/static/images/form2.jpg"]
         },
 
         {
@@ -27,7 +27,7 @@
             "technologies": ["HTML", "CSS", "JS", "OOP"],
             "live_link": " ",
             "github_link": " ",
-            "image_urls": ["images/oopgame1.jpg", "images/oopgame2.jpg"]
+            "image_urls": ["/static/images/oopgame1.jpg", "/static/images/oopgame2.jpg"]
         },
 
         {
@@ -37,7 +37,7 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
-            "image_urls": ["images/pagination1.png", "images/pagination2.jpg"]
+            "image_urls": ["/static/images/pagination1.png", "/static/images/pagination2.jpg"]
         },
 
         {
@@ -47,17 +47,17 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
-            "image_urls": ["images/randomquote1.jpg", "images/randomquote2/jpg"]
+            "image_urls": ["/static/images/randomquote1.jpg", "/static/images/randomquote2.jpg"]
         },
 
         {
             "id": 5,
             "project_name": "RSVP App",
-            "description": " ",
-            "technologies": ["HTML", "JS", " "],
+            "description": "RSVP App",
+            "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": " ",
             "github_link": " ",
-            "image_urls": [" ", " "]
+            "image_urls": ["/static/images/rsvp1.jpg", "/static/images/rsvp2.jpg"]
         }
 
     ]
