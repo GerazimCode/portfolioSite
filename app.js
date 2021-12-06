@@ -42,7 +42,7 @@ app.get("/projects/:id", (req, res) => {
  * Project error handling
  */
 
-// 404 Error handling to catch non existent and undefined routes
+// 404 Error handling to catch non existent and undefined routes with status code displayed
 app.use((req, res, next) => {
     let customError = new Error("This page does not exist!!");
     customError.status = 404;
@@ -51,7 +51,7 @@ app.use((req, res, next) => {
     next();
 })
 
-// Global Error handling to server errors...
+// Global Error handling for server errors with status code displayed...
 app.use((err, req, res, next) => {
     err.status = 500;
     res.status(500);
