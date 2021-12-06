@@ -2,15 +2,9 @@ extends layout.pug
 
 block content
 
-  article.portfolio-intro
-
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Let's Make the Web Better Together!
-
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p This portfolio Serves the purpose of introducing me to you good people.
-
-
+  article.portfolio-intro 
+    h1 Welcome to my Portfolio 
+    p This portfolio Serves the purpose of introducing me to you, here you find a number of project I had fun working on.
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
@@ -19,9 +13,6 @@ block content
           a(href=`/projects/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`, alt="Project thumbnail")
             h5=project.project_name 
-
-
-
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       

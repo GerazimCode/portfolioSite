@@ -48,9 +48,7 @@ app.use((req, res, next) => {
     customError.status = 404;
     console.log(customError.message);
     console.log(`Error Code: ${customError.status}`);
-    // res.render("Page Not Found!", { customError });
     next();
-// check if all the logs are still needed....
 })
 
 // Global Error handling to server errors...
@@ -61,7 +59,6 @@ app.use((err, req, res, next) => {
     let errorMessage = err.message;
     console.log(errorMessage);
     console.log(`Error Code: ${err.status}`);
-    // res.render("Error", { err });
     next();
 
 })
