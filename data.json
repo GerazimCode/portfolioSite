@@ -5,18 +5,18 @@
             "project_name": "Employee Directory",
             "description": "This is a directory that shows employees randomly and refreshes with new content...",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": " ",
-            "github_link": " ",
+            "live_link": "https://gerazimcode.github.io/employeeDirectory/",
+            "github_link": "https://github.com/GerazimCode/employeeDirectory",
             "image_urls": ["/static/images/directory1.jpg", "/static/images/directory2.jpg"]
         },
 
         {
             "id": 1,
-            "project_name": "Form Validation",
+            "project_name": "Interactive Form",
             "description": "An extensinve form.....",
             "technologies": ["HTML", "CSS", "Javascript", "Regex"],
-            "live_link": " ",
-            "github_link": " ",
+            "live_link": "https://gerazimcode.github.io/interactiveForm/",
+            "github_link": "https://github.com/GerazimCode/interactiveForm",
             "image_urls": ["/static/images/form1.jpg", "/static/images/form2.jpg"]
         },
 
@@ -24,9 +24,9 @@
             "id": 2,
             "project_name": "Phrase Guessing Game",
             "description": "A game built with OOP concept in JS to.....",
-            "technologies": ["HTML", "CSS", "JS", "OOP"],
-            "live_link": " ",
-            "github_link": " ",
+            "technologies": ["HTML", "CSS", "Javascript", "OOP"],
+            "live_link": " https://gerazimcode.github.io/phraseHunter/",
+            "github_link": "https://github.com/GerazimCode/phraseHunter",
             "image_urls": ["/static/images/oopgame1.jpg", "/static/images/oopgame2.jpg"]
         },
 
@@ -35,8 +35,8 @@
             "project_name": "Data Pagination",
             "description": "Data pagination is a simple app that shows how data is functioning...",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": " ",
-            "github_link": " ",
+            "live_link": "https://gerazimcode.github.io/dataPagination/",
+            "github_link": "https://github.com/GerazimCode/dataPagination",
             "image_urls": ["/static/images/pagination1.png", "/static/images/pagination2.jpg"]
         },
 
@@ -45,8 +45,8 @@
             "project_name": "Random Quote Generator",
             "description": "A simple web app that displays random quotes as you press the button...",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": " ",
-            "github_link": " ",
+            "live_link": "https://gerazimcode.github.io/randomQuoteGenerator/",
+            "github_link": "https://github.com/GerazimCode/randomQuoteGenerator",
             "image_urls": ["/static/images/randomquote1.jpg", "/static/images/randomquote2.jpg"]
         },
 
@@ -55,8 +55,8 @@
             "project_name": "RSVP App",
             "description": "RSVP App",
             "technologies": ["HTML", "CSS", "Javascript"],
-            "live_link": " ",
-            "github_link": " ",
+            "live_link": "https://gerazimcode.github.io/rsvpApp/",
+            "github_link": "https://github.com/GerazimCode/rsvpApp",
             "image_urls": ["/static/images/rsvp1.jpg", "/static/images/rsvp2.jpg"]
         }
 
