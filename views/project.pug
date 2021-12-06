@@ -10,11 +10,7 @@ block content
   article.portfolio-projects
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
-
-        //- Use interpolation to dynamically add the project title
         h1= projectName 
-
-        //- Use interpolation to dynamically add the project description
         p= description 
 
       .project-tech-links-box.box
@@ -23,23 +19,13 @@ block content
           each tech in technologies 
             li= tech 
 
-          //- //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
-          //- li HTML
-          //- li CSS
-          //- li JavaScript
-
-        //- Add the href values to the links below
+          //- links
         a.btn-link(href=`${liveLink}` target= "_blank") Live Demo
         a.btn-link(href=`${githubLink}` target= "_blank") GitHub Repo 
 
     .project-img-box.box
       each img in images 
         img.project-img(src=`${img}`, alt='')
-
-      //- //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      //- img.project-img(src='https://placehold.it/1200x550', alt='')
-      //- img.project-img(src='https://placehold.it/1200x550', alt='')
-      //- img.project-img(src='https://placehold.it/1200x550', alt='')
 
     nav.nav
       a(href='/')

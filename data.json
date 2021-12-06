@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Employee Directory",
-            "description": "This is a directory that shows employees randomly and refreshes with new content...",
+            "description": "This project uses the Random User Generator API to grab information for 12 random employees and use that data to build a prototype for a fictional Awesome StartUp employee directory. The JSON object is requested from the API and that data is parsed so that 12 employees are listed in grid with their thumbnail image, full name, email and address. Clicking the employee's name or image will open the modal windown with more details.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://gerazimcode.github.io/employeeDirectory/",
             "github_link": "https://github.com/GerazimCode/employeeDirectory",
@@ -13,7 +13,7 @@
         {
             "id": 1,
             "project_name": "Interactive Form",
-            "description": "An extensinve form.....",
+            "description": "This project uses JS to add interactivity to a registration form for a fictional Full Stack Conference. JS was used here to make the form more user friendly by adding conditional behaviors, validating user input and also providing helpful error messages.",
             "technologies": ["HTML", "CSS", "Javascript", "Regex"],
             "live_link": "https://gerazimcode.github.io/interactiveForm/",
             "github_link": "https://github.com/GerazimCode/interactiveForm",
@@ -23,7 +23,7 @@
         {
             "id": 2,
             "project_name": "Phrase Guessing Game",
-            "description": "A game built with OOP concept in JS to.....",
+            "description": "A Browser based word guessing game using Javascript and OOP(Object Oriented Programming). OOP concepts are used to select a random hidden phrase which a player tries to guess by clicking on letters on the onscreen keyboard. A player continues to select the letters until they guess the phrase and win the game, but after incorrect guesses the players loses the game and has to try again.",
             "technologies": ["HTML", "CSS", "Javascript", "OOP"],
             "live_link": " https://gerazimcode.github.io/phraseHunter/",
             "github_link": "https://github.com/GerazimCode/phraseHunter",
@@ -33,7 +33,7 @@
         {
             "id": 3,
             "project_name": "Data Pagination",
-            "description": "Data pagination is a simple app that shows how data is functioning...",
+            "description": "A web app that uses pagination to enhance userbility of a web page.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://gerazimcode.github.io/dataPagination/",
             "github_link": "https://github.com/GerazimCode/dataPagination",
@@ -43,7 +43,7 @@
         {
             "id": 4,
             "project_name": "Random Quote Generator",
-            "description": "A simple web app that displays random quotes as you press the button...",
+            "description": "A simple web app that displays random quotes as you keep pressing the button.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://gerazimcode.github.io/randomQuoteGenerator/",
             "github_link": "https://github.com/GerazimCode/randomQuoteGenerator",
@@ -53,7 +53,7 @@
         {
             "id": 5,
             "project_name": "RSVP App",
-            "description": "RSVP App",
+            "description": "RSVP App to help track those that have are attending an event.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://gerazimcode.github.io/rsvpApp/",
             "github_link": "https://github.com/GerazimCode/rsvpApp",
