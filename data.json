@@ -13,7 +13,7 @@
         {
             "id": 1,
             "project_name": "Interactive Form",
-            "description": "This project uses JS to add interactivity to a registration form for a fictional Full Stack Conference. JS was used here to make the form more user friendly by adding conditional behaviors, validating user input and also providing helpful error messages.",
+            "description": "This project uses Javascript to add interactivity to a registration form for a fictional Full Stack Conference. Javascript was used here to make the form more user friendly by adding conditional behaviors, validating user input and also providing helpful error messages.",
             "technologies": ["HTML", "CSS", "Javascript", "Regex"],
             "live_link": "https://gerazimcode.github.io/interactiveForm/",
             "github_link": "https://github.com/GerazimCode/interactiveForm",
